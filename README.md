@@ -119,7 +119,7 @@
         const password = document.getElementById('password').value;
 
         // Проверка на админ-аккаунт
-        if (username === 'Admin001' && password === '160419223456') {
+        if (username === 'Admin001' && password === '88005553535') {
             currentUser = { username, balance: Infinity }; // Устанавливаем бесконечный баланс
             document.getElementById('authContainer').style.display = 'none';
             document.getElementById('mainContainer').style.display = 'block';
